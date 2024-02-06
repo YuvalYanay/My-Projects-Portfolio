@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T10:26:10.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" version="23.1.1" etag="kbBXxzqEtDph93fGqyDq" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T10:37:58.922Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="siuH4c8Sr3JIAPM-bpVJ" version="23.1.1" type="github">
   <diagram name="‫עמוד-1‬" id="8Dep6BcAxHNIvqIjdbL4">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-1" value="START" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-1110" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424.5" y="-1030" as="sourcePoint" />
+            <mxPoint x="424.5" y="-970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-5" value="Generate a Random Word (Invisible)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-970" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424.5" y="-890" as="sourcePoint" />
+            <mxPoint x="424.5" y="-830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-7" value="Generate as many blanks as letters in word" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-830" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424.5" y="-750" as="sourcePoint" />
+            <mxPoint x="424.5" y="-690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-9" value="Ask the user to guess a letter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-690" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="424.5" y="-610" as="sourcePoint" />
+            <mxPoint x="424.5" y="-550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-11" value="Is the guessed letter in the word?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-550" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-13" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="-520" as="sourcePoint" />
+            <mxPoint x="570" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-14" value="Lose a life" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-15" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="-520" as="sourcePoint" />
+            <mxPoint x="270" y="-450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-16" value="Replace the blank space with a letter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-18" value="&lt;b&gt;Yes&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="-500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-19" value="&lt;b&gt;No&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="-500" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vPuH9uu4FS5RHY2r20fB-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="269.5" y="-410" as="sourcePoint" />
+            <mxPoint x="270" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
